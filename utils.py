@@ -46,7 +46,7 @@ def get_normalized_adj(A):
     A_msg[target, source] = 1
     """
 
-    # A = A.T  # 转置，保证A[target, source] = 1
+    A = A.T  # 转置，保证A[target, source] = 1
     # A = A + np.diag(np.ones(A.shape[0], dtype=np.float32))  暂时不加对角线，数据中已经存在对角线
     #注意axis的数值，原始的数据行是下游，也就是被影响的数据，而我的数据行是上游，是源节点
     D = np.array(np.sum(A, axis=1)).reshape((-1,))
