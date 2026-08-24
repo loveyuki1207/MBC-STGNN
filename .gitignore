@@ -1,0 +1,18 @@
+# 数据集
+data/
+
+# 模型权重
+checkpoints/
+daily_inputs_results/
+data/
+predictions_interp/
+.vscode/
+
+# Python缓存
+__pycache__/
+
+设置非负约束.txt
+物理知识引导图神经网络.pptx
+GRU处理时间序列，最后时间和空间特征利用注意力机制集合.txt
+
+stgcn_tp_imputation_inference(absolutely true, for climate scenario).py
